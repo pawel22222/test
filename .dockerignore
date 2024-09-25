@@ -1,9 +1,0 @@
-venv
-*.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-__pycache__/
-.env
-.vscode/
