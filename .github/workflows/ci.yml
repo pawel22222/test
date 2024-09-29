@@ -45,10 +45,10 @@ jobs:
         # because GitHub actions doesn't preserve the environment   
         run: . venv/bin/activate && pytest
         
-      - name: Debug directory structure
-        run: |
-          pwd
-          ls -R venv
+      # - name: Debug directory structure
+      #   run: |
+      #     pwd
+      #     ls -R venv
 
       - name: Create archive of dependencies
         run: |
